@@ -24,6 +24,8 @@ mkdir ~/Documents/Processing
 
 killall "Google Chrome"
 
+rm -rf /Users/league/Library/Caches/Google/*
+
 echo -ne '\n' | git credential-osxkeychain erase host=github.com protocol=https
 
 git config --global --edit
