@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
    <key>Label</key>
-   <string>com.league.loginscript</string>
+   <string>org.league.loginscript</string>
    <key>ProgramArguments</key>
    <array><string>/Users/league/scripts/clear_everything_scripts.sh</string></array>
    <key>RunAtLoad</key>
