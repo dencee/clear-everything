@@ -28,7 +28,7 @@ rm -rf /Users/league/Library/Caches/Google/*
 
 echo -ne '\n' | git credential-osxkeychain erase host=github.com protocol=https
 
-git config --global --edit
+
 git config --local --unset credential.helper
 git config --global --unset credential.helper
 git config --system --unset credential.helper
