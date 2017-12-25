@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
    <key>Label</key>
-   <string>com.user.loginscript</string>
+   <string>com.league.loginscript</string>
    <key>ProgramArguments</key>
-   <array><string>/Users/league/scripts/clear_everything_scripts.sh</string></array>
+   <array><string>/Users/league/scripts/clear_everything_client.sh</string></array>
    <key>RunAtLoad</key>
    <true/>
 </dict>
