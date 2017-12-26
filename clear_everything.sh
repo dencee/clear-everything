@@ -51,6 +51,6 @@ git config --system --unset credential.helper
 
 cd ~/Desktop
  
-curl https://github.com/jp9000/obs-studio/releases/download/20.1.0/obs-mac-20.1-installer.pkg --output ~/Desktop/obs.pkg
+#curl https://github.com/jp9000/obs-studio/releases/download/20.1.0/obs-mac-20.1-installer.pkg --output ~/Desktop/obs.pkg
 
 
