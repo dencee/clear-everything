@@ -55,3 +55,7 @@ cd ~/Desktop
 
 echo "script successful" > log.txt
 
+#reset Background
+curl https://raw.githubusercontent.com/jointheleague/league-images/master/League%20desktop.png > ~/Desktop/league.png
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/league/Desktop/league.png"'
+
