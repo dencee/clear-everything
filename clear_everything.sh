@@ -53,9 +53,7 @@ cd ~/Desktop
  
 #curl https://github.com/jp9000/obs-studio/releases/download/20.1.0/obs-mac-20.1-installer.pkg --output ~/Desktop/obs.pkg
 
-echo "script successful" > log.txt
-
 #reset Background
 curl https://raw.githubusercontent.com/jointheleague/league-images/master/League%20desktop.png > ~/Desktop/league.png
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/league/Desktop/league.png"'
-rm /Users/league/Desktop/league.png
+
