@@ -56,9 +56,11 @@ git config --system --unset credential.helper
 curl https://raw.githubusercontent.com/jointheleague/league-images/master/League%20desktop.png > ~/league.png
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/league/league.png"'
 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 brew install python3
 
-wget https://raw.githubusercontent.com/aidan-plenert-macdonald/packages/master/requirements.txt
+curl https://raw.githubusercontent.com/aidan-plenert-macdonald/packages/master/requirements.txt > requirements.txt
 
 sudo pip3 install -r requirements.txt
 
