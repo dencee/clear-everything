@@ -27,7 +27,7 @@ killall "Google Chrome"
 rm -rf /Users/league/Library/Caches/Google/*
 
 #remove keychains
-rm -rf Library/Keychains/
+rm -rf /Users/league/Library/Keychains/
 
 echo -ne '\n' | git credential-osxkeychain erase host=github.com protocol=https
 
