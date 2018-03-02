@@ -35,7 +35,7 @@ echo -ne '\n' | git credential-osxkeychain erase host=github.com protocol=https
 rm -rf /Users/league/Library/Caches/com.github.GitHub
 
 #remove Chrome Snake
-/Users/league/Library/Application\ Support/Google/Chrome/Default/Extensions/cbdobfnjgnmlcajcamdfjeofmnecepdl
+/Users/league/Library/Application\ Support/Google/Chrome/*/Extensions/cbdobfnjgnmlcajcamdfjeofmnecepdl
 
 # attempt to remove fit credentials from being saved in keychain
 git config --local --unset credential.helper
