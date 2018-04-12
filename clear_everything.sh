@@ -56,7 +56,8 @@ git config --system --unset credential.helper
 #</plist>
 
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master$
+ruby \
+  -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
   </dev/null
 brew install git
 
