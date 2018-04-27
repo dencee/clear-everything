@@ -63,5 +63,5 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 curl https://raw.githubusercontent.com/jointheleague/league-images/master/League%20desktop.png > ~/league.png
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/league/league.png"'
 
-
+brew cask install eagle
 
