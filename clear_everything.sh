@@ -65,3 +65,5 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/U
 
 brew cask install eagle
 
+touch deleteTHis.txt
+
