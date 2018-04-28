@@ -55,8 +55,9 @@ git config --system --unset credential.helper
 #</dict>
 #</plist>
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null ;
- 
+ruby \
+  -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
+  </dev/null 
 #curl https://github.com/jp9000/obs-studio/releases/download/20.1.0/obs-mac-20.1-installer.pkg --output ~/Desktop/obs.pkg
 
 #reset Background
