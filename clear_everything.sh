@@ -69,4 +69,5 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/U
 
 # install eagle?
 #brew cask install eagle
-
+cd
+git clone https://github.com/keithagroves/BasicMultiplayer.git
