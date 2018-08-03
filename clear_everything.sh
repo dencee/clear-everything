@@ -42,6 +42,8 @@ git config --local --unset credential.helper
 git config --global --unset credential.helper
 git config --system --unset credential.helper
 
+printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
+
 #<?xml version="1.0" encoding="UTF-8"?>
 #<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 #<plist version="1.0">
@@ -70,4 +72,6 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/U
 # install eagle?
 #brew cask install eagle
 cd
-git clone https://github.com/keithagroves/BasicMultiplayer.git
+#git clone https://github.com/keithagroves/BasicMultiplayer.git
+
+
