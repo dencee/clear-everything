@@ -74,4 +74,5 @@ osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/U
 cd
 #git clone https://github.com/keithagroves/BasicMultiplayer.git
 
+open https://docs.google.com/document/d/e/2PACX-1vT5XdG77iUZkibeAysT3aaSrGHJxjdPyKvxIt7TX7A2H9n9Uo7FKbO9VTgiQacxa2U3_FRb7oSOXepf/pub
 
