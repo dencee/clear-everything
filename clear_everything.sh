@@ -76,3 +76,6 @@ cd
 
 open https://docs.google.com/document/d/e/2PACX-1vT5XdG77iUZkibeAysT3aaSrGHJxjdPyKvxIt7TX7A2H9n9Uo7FKbO9VTgiQacxa2U3_FRb7oSOXepf/pub
 
+# begin delayed logout on 90 minute timer
+sleep 5400
+osascript -e "tell application \"System Events\" to log out"
