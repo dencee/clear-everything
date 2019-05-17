@@ -85,4 +85,6 @@ git config --system --unset credential.helper
 
 printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
 
+git config --system credential.helper > /Users/league/Desktop/log.txt
+
 osascript -e "tell application \"System Events\" to log out"
