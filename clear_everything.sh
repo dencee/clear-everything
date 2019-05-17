@@ -77,5 +77,12 @@ cd
 open https://docs.google.com/document/d/e/2PACX-1vT5XdG77iUZkibeAysT3aaSrGHJxjdPyKvxIt7TX7A2H9n9Uo7FKbO9VTgiQacxa2U3_FRb7oSOXepf/pub
 
 # begin delayed logout on 90 minute timer
-sleep 5400
+sleep 60
+
+git config --local --unset credential.helper
+git config --global --unset credential.helper
+git config --system --unset credential.helper
+
+printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
+
 osascript -e "tell application \"System Events\" to log out"
