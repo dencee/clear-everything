@@ -38,11 +38,10 @@ rm -rf /Users/league/Library/Caches/com.github.GitHub
 rm -rf /Users/league/Library/Application\ Support/Google/Chrome/*/Extensions/cbdobfnjgnmlcajcamdfjeofmnecepdl
 
 # attempt to remove fit credentials from being saved in keychain
-git config --local --unset credential.helper
-git config --global --unset credential.helper
-git config --system --unset credential.helper
+git config --global --unset credential.helper >> /Users/league/Desktop/log.txt 2>&1
+git config --system --unset credential.helper >> /Users/league/Desktop/log.txt 2>&1
 
-printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
+printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase >> /Users/league/Desktop/log.txt 2>&1
 
 #<?xml version="1.0" encoding="UTF-8"?>
 #<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -79,12 +78,6 @@ open https://docs.google.com/document/d/e/2PACX-1vT5XdG77iUZkibeAysT3aaSrGHJxjdP
 # begin delayed logout on 90 minute timer
 sleep 60
 
-git config --local --unset credential.helper
-git config --global --unset credential.helper
-git config --system --unset credential.helper
-
-printf "protocol=https\nhost=github.com\n" | git credential-osxkeychain erase
-
-git config --system credential.helper > /Users/league/Desktop/log.txt
+#git config --system credential.helper > /Users/league/Desktop/log.txt
 
 osascript -e "tell application \"System Events\" to log out"
